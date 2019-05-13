@@ -377,7 +377,7 @@ export class RichText extends Component {
 
 		this.recalculateBoundaryStyle();
 
-		// We know for certain that of focus, the old selection is invalid. It
+		// We know for certain that on focus, the old selection is invalid. It
 		// will be recalculated on `selectionchange`.
 		const index = undefined;
 		const activeFormats = undefined;
