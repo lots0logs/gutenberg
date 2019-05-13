@@ -633,7 +633,7 @@ export class RichText extends Component {
 	}
 
 	/**
-	 * Updates the selection state as soon as possible, event before the next
+	 * Updates the selection state as soon as possible, even before the next
 	 * `selectionchange` event.
 	 * In order to handle subsequent events that rely on selection correctly, we
 	 * need to set the new selection as soon as we can. The `selectionchange`
